@@ -1,4 +1,4 @@
-## Meal Finder App
+## Kitchen-Library
 
 Search and generate random meals from the [themealdb.com](www.themealdb.com) API
 
