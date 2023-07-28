@@ -90,14 +90,10 @@ input[type='text'] {
 
 /* Rest of the CSS remains unchanged */
 
-
-.random-btn:hover {
-  background-color: #3063b9; /* Darker blue on hover */
-}
-
+/* Meals reduced the size for mobile */
 .meals {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-gap: 20px;
   margin-top: 30px;
 }
@@ -112,7 +108,7 @@ input[type='text'] {
   cursor: pointer;
   color: #333; /* Darker text color */
   height: 200px;
-  width: 200px;
+  width: 150px; /* Reduced width for mobile devices */
   text-align: center;
   border-radius: 10px;
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
@@ -244,3 +240,30 @@ input[type='text'] {
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.5); /* White box shadow with transparency */
   }
 }
+
+/* Responsive CSS */
+
+/* Tablet and larger screens */
+
+@media screen and (min-width: 768px) {
+  .container {
+    padding: 20px; /* Increase padding for larger screens */
+  }
+
+  .meals {
+    grid-template-columns: repeat(3, 1fr); /* Show 3 columns of meals on tablets */
+  }
+}
+
+/* Desktop and larger screens */
+
+@media screen and (min-width: 1024px) {
+  .container {
+    padding: 30px; /* Further increase padding for larger screens */
+  }
+
+  .meals {
+    grid-template-columns: repeat(6, 1fr); /* Show 6 columns of meals on desktops */
+  }
+}
+
