@@ -1,6 +1,5 @@
 # Kitchen Library - Random Meal Generator
-
-![Kitchen Library](Kitchen-Library.jpg)
+![IMG_20230725_082040_093](https://github.com/Raazvardhan/Raazvardhan/assets/139915269/abdfa72b-761b-4f29-814e-b90b468c8232)
 
 This is a web application that allows you to search for meals using themeadb.com API and also generates random meals. You can view the details of each meal by clicking on it.
 
