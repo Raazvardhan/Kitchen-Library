@@ -19,12 +19,10 @@ To run the project locally, follow these steps:
    ```
    git clone https://github.com/raazvardhan/Kitchen-Library.git
    ```
-
 2. Navigate to the project directory:
    ```
    cd Kitchen-Library
    ```
-
 3. Open the `index.html` file in your web browser.
 
 ## Dependencies
